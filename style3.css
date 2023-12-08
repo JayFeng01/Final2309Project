@@ -1,0 +1,94 @@
+body {
+  padding: 0px;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.header {
+  text-align-last: justify;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ff91af;
+}
+
+.horizontal li {
+  max-width: 100%;
+  padding: 20px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box h3 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.box p {
+  margin-top: 10px;
+}
+
+.Trainer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Trainer div {
+  text-align: center;
+}
+
+.Trainer1,
+.Trainer2,
+.Trainer3 {
+  text-align: center;
+}
+
+.horizontal li {
+  max-width: 100%;
+  padding: 20px;
+  display: inline;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+  /* Adjust the margin as needed */
+}
+
+p {
+  margin: 0;
+}

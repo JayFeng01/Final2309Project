@@ -1,0 +1,142 @@
+body {
+  padding: 0px;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+article {
+  padding: 20px;
+  margin: auto;
+  height: 500px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the opacity value (0.0 to 1.0) */
+}
+
+article::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("gymbackground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  /* Adjust the opacity value (0.0 to 1.0) */
+  z-index: -1;
+}
+
+.header {
+  text-align-last: justify;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ff91af;
+
+
+}
+
+.horizontal li {
+  max-width: 100%;
+  padding: 20px;
+  display: inline;
+}
+
+article h1 {
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+
+}
+
+.footer {
+  margin-top: 400px;
+  left: 0;
+  bottom: 0;
+  width: 300;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.membership {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.membership-option {
+  width: 250px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  /* Added margin between membership options */
+}
+
+.membership-option:hover {
+  background-color: #f0f0f0;
+}
+
+.membership-option h2 {
+  color: #333;
+  text-align: center;
+}
+
+.membership-option ul {
+  list-style: none;
+
+  padding: 0;
+  text-align: center;
+
+}
+
+.membership-option li {
+  margin-bottom: 10px;
+
+}
+
+.membership-option li:last-child {
+  margin-bottom: 0;
+
+}
+
+.membership-option .price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <link href="style2.css" rel="stylesheet" media="all" />
+  <link href="gym_navicon.css" rel="stylesheet" media="all" />
+  <link href="gym_reset.css" rel="stylesheet" media="all" />
+  <script src="membershipValidation.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <ul class="horizontal" type="none">
+
+      <li><a href='index.html'> About </a></li>
+      <li><a href='gym_membership.html'> Membership </a></li>
+      <li><a href='gym_creativity.html'> Amenities </a></li>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap">
+    </ul>
+  </div>
+
+  <article>
+
+
+    <h1>Blub Gym</h1>
+
+
+
+  </article>
+
+  <body>
+    
+    <div class="membership">
+      <button class="membership-option" onclick="handleMembershipClick('basic')">
+        <h2>Basic <br> Membership</h2>
+        <ul>
+          <li>Access to gym facilities</li>
+          <li>Standard equipment</li>
+          <li class="price">$29.99/month</li>
+        </ul>
+      </button>
+
+      <button class="membership-option" onclick="handleMembershipClick('premium')">
+        <h2>Premium Membership</h2>
+        <ul>
+          <li>Access to gym facilities</li>
+          <li>Advanced equipment</li>
+          <li>Group fitness classes</li>
+          <li class="price">$49.99/month</li>
+        </ul>
+      </button>
+
+      <button class="membership-option" onclick="handleMembershipClick('ultimate')">
+        <h2>Ultimate <br> Membership</h2>
+        <ul>
+          <li>Access to gym facilities</li>
+          <li>Top-tier equipment</li>
+          <li>Personal trainer sessions</li>
+          <li>Exclusive spa access</li>
+          <li class="price">$79.99/month</li>
+        </ul>
+      </button>
+    </div>
+
+    <script>
+      function handleMembershipClick(membershipType) {
+        // You can perform actions specific to each membership type here
+        // For example, redirect to a different page based on the membership type
+        window.location.href = 'subscribe.html?type=' + membershipType;
+      }
+    </script>
+
+  </body>
+
+</html>
